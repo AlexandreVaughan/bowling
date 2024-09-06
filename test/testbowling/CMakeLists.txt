@@ -1,6 +1,6 @@
 file(GLOB SRCS *.cpp)
 
-set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_STANDARD 14)
 
 if(WIN32)
     set(CMAKE_CXX_FLAGS_RELEASE "/MT")
